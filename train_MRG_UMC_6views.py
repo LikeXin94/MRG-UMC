@@ -2,12 +2,12 @@ import argparse
 import collections
 import itertools
 import torch
-from model_MRG_UMC_autopara_tuning_6view import *  #验证理论1， 多层聚类有效； 验证理论2， 可靠视图指导有效
+from model_MRG_UMC_autopara_tuning_6view import *  
 from get_mask import get_mask_my
 from util import cal_std, get_logger, cal_std_my
 from datasets import *
 from configure import get_default_config
-from sklearn.preprocessing import StandardScaler  #样本数据归一化，标准化
+from sklearn.preprocessing import StandardScaler  
 
 import sys
 stdout_backup = sys.stdout
