@@ -286,7 +286,7 @@ class Completer_my_20220605():
         plt.legend(['training_loss', 'z_norm_loss', 'rec_loss', 'inner_contrastive_loss', 'cross_contrastive_loss', 'KL_loss'], loc='upper right')
         fig = plt.gcf()  # 获取当前图像
         fig.savefig(
-            r'/home/xlk/learning_code/test_autoencoder_20230312/figs/my_loss_term{}.png'.format(test_time))  # 127
+            r'/home/learning_code/test_autoencoder_20230312/figs/my_loss_term{}.png'.format(test_time))  # 127
         # 开始绘图
         plt.show()
         fig.clear()  # 释放内存
@@ -304,8 +304,7 @@ class Completer_my_20220605():
         # 设置图例是显示'train','validation',位置在右下角
         plt.legend(['training_loss'], loc='upper right')
         fig = plt.gcf()  # 获取当前图像
-        # fig.savefig(r'/home/xlk/learning_code/2021-CVPR-Completer/figs/my_loss_{}.png'.format(test_time))# 216
-        fig.savefig(r'/home/xlk/learning_code/test_autoencoder_20230312/figs/super_class/caltech101_my_loss_231230_{}.eps'.format(test_time))  # 127
+        fig.savefig(r'/home/learning_code/test_autoencoder_20230312/figs/super_class/caltech101_my_loss_231230_{}.eps'.format(test_time))  # 127
         # 开始绘图
         plt.show()
         fig.clear()  # 释放内存
@@ -329,9 +328,8 @@ class Completer_my_20220605():
         # 设置图例是显示'train','validation',位置在右下角
         plt.legend(['acc', 'nmi', 'precision', 'F_measure'], loc='lower right')
         fig = plt.gcf()  # 获取当前图像
-        # fig.savefig(r'/home/xlk/learning_code/2021-CVPR-Completer/figs/my_loss_acc_nmi_{}.png'.format(test_time))
         fig.savefig(
-            r'/home/xlk/learning_code/test_autoencoder_20230312/figs/super_class/digit_my_acc_nmi_231230_{}.eps'.format(test_time))  # 127
+            r'/home/learning_code/test_autoencoder_20230312/figs/super_class/digit_my_acc_nmi_231230_{}.eps'.format(test_time))  # 127
         # 开始绘图
         plt.show()
         fig.clear()  # 释放内存
@@ -400,8 +398,7 @@ class Completer_my_20220605():
 
         fig = plt.gcf()  # 获取当前图像
         # fig.savefig(r'D:\{}.png'.format())
-        # fig.savefig(r'/home/xlk/learning_code/2021-CVPR-Completer/figs/{}.png'.format(index))# 216
-        fig.savefig(r'/home/xlk/learning_code/test_autoencoder_20230312/figs/super_class/{}.eps'.format(index))  # 127
+        fig.savefig(r'/home/learning_code/test_autoencoder_20230312/figs/super_class/{}.eps'.format(index))  # 127
 
         plt.show()
         fig.clear()  # 释放内存
