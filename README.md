@@ -1,4 +1,5 @@
 Multi-level Reliable Guidance for Unpaired Multi-view Clustering
+To illustrate the implementation, the code takes the digit dataset with six-view as an example. The main file of the code is train_MRG_UMC_6views.py.
 
 1. Requirements:
 pytorch==1.2.0
