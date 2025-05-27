@@ -11,6 +11,9 @@ munkres>=1.1.4
 3. Datasets: The Digit[1], Caltech101-20[2], Scene-15[2], Flower17[3] and Reuters[4] datasets are list as follows:
 
 [1] http://archive.ics.uci.edu/dataset/72/multiple+features
+
 [2] https://github.com/XLearning-SCU/2021-CVPR-Completer/tree/main/data
+
 [3] http://www.robots.ox.ac.uk/vgg/data/flowers/17/index.html
+
 [4] http://archive.ics.uci.edu/ml/datasets/Reuters+RCV1+RCV2+Multilingual%2C+Multiview+Text+Categorization+Test+collection
